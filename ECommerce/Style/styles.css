@@ -1,3 +1,24 @@
-h1{
-    color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Common style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
 }
+    /* Changing the defoult font size to 10px */
+ html{  
+    font-size:62.5% ;
+ }
+    /* Creating global variable  */
+ :root{
+    --primary-color: #6edae6;
+    --white-color:#fff;
+    --black-color:#000;
+ }
+
+ /* section 1 */
